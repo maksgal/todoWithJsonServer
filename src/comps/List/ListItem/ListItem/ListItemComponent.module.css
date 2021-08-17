@@ -1,0 +1,6 @@
+.liText{
+    word-break:break-all;
+}
+.span{
+    white-space: nowrap;
+}

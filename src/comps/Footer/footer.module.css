@@ -1,0 +1,33 @@
+
+.content{
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.textAndLink{
+    display: flex;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.button{flex: 1 1 0}
+
+.switch{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 0}
+
+.link{
+    margin-left: 0.5rem;
+    color: rgb(163, 163, 163);
+    display: block;
+    transition: all 0.3s;
+}
+a:hover{
+    transform: scale(1.1);
+}
